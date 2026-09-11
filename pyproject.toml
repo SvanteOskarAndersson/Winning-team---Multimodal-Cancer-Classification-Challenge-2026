@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmcc"
+version = "1.0.0"
+description = "Multimodal (brightfield + fluorescence) oral cancer cell classification"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Edvard Schmidt" },
+    { name = "Leo Lindström Kemetli" },
+    { name = "Svante Andresson" },
+]
+dependencies = [
+    "torch",
+    "torchvision",
+    "timm",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pillow",
+    "tqdm",
+    "matplotlib",
+]
+
+[project.scripts]
+mmcc = "mmcc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
