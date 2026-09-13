@@ -7,7 +7,7 @@ Kaggle Multimodal Cancer Classification Challenge 2026.
 - **Competition:** https://www.kaggle.com/competitions/multimodal-cancer-classification-challenge-2026/overview
 - **Leaderboard:** https://www.kaggle.com/competitions/multimodal-cancer-classification-challenge-2026/leaderboard
 
-**Authors:** Edvard Schmidt, Leo Lindström Kemetli, Svante Andersson
+**Authors:** Svante Andersson, Leo Lindström Kemetli, Edvard Schmidt
 
 ---
 
